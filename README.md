@@ -1,4 +1,11 @@
 # wrapped_ollvm
+
+## LSIM
+LSIM is a way to evaluate the structrual dissimilarity between software control-flow(in granular of function-level)
+it takes two LLVM IR(.ll) file and function name as its input(default name is "main"). 
+
+
+## split
 substitute file with the same name(in ../obfuscator/lib/Transforms/Obfuscation)
 
 append -mllvm -mysplit to activate its functionality
