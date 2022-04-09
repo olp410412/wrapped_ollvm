@@ -2,7 +2,7 @@
 
 ## LSIM
 LSIM is a way to evaluate the structrual dissimilarity between software control-flow(in granular of function-level)
-it takes two LLVM IR(.ll) file and function name as its input(default name is "main"). 
+it takes two LLVM IR(.ll) files and function names as its input(default name is "main"). 
 
 
 ## split
