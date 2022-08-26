@@ -15,7 +15,7 @@ append -mllvm func_name to specify which needs to split
 append -mllvm -lyp233=255 to specify those blocks (255 would be interpreted into a binary sequence as the mask for the corresponding order of block sequence)
 
 ### for example
-../build/bin/clang test.c  -S -o test.s -mllvm split -mllvm mysplit -mllvm splitnum=2 -mllvm -function_name=your-function-name -mllvm -lyp233=255
 
 
-../build/bin/clang 2.ll -S -o 2.without.r1.ll -S -emit-llvm -mllvm -mysplit -mllvm -function_name=main -mllvm -lyp233=65535
+
+../build/bin/clang 2.c -S -o 2.without.r1.ll -S -emit-llvm -mllvm -split -mllvm -function_name=main -mllvm -lyp233=65535
